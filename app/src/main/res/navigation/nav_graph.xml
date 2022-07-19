@@ -20,23 +20,26 @@
         android:name="com.help_kiosk.HomeFragment"
         android:label="fragment_home"
         tools:layout="@layout/fragment_home" >
-        <action
-            android:id="@+id/action_homeFragment_to_simulationFragment"
-            app:destination="@id/simulationFragment" />
+<!--        <action-->
+<!--            android:id="@+id/action_homeFragment_to_simulationFragment"-->
+<!--            app:destination="@id/simulationFragment" />-->
         <action
             android:id="@+id/action_homeFragment_to_wayFragment"
             app:destination="@id/wayFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_mcDonaldPage1Fragment"
+            app:destination="@id/mcDonaldPage1Fragment" />
     </fragment>
 
-    <fragment
-        android:id="@+id/simulationFragment"
-        android:name="com.help_kiosk.SimulationFragment"
-        android:label="fragment_simulation"
-        tools:layout="@layout/fragment_simulation" >
-        <argument
-            android:name="selectedBtnName"
-            app:argType="string" />
-    </fragment>
+<!--    <fragment-->
+<!--        android:id="@+id/simulationFragment"-->
+<!--        android:name="com.help_kiosk.SimulationFragment"-->
+<!--        android:label="fragment_simulation"-->
+<!--        tools:layout="@layout/fragment_simulation" >-->
+<!--        <argument-->
+<!--            android:name="selectedBtnName"-->
+<!--            app:argType="string" />-->
+<!--    </fragment>-->
 
     <fragment
         android:id="@+id/wayFragment"
@@ -47,5 +50,19 @@
             android:name="selectedBtnName"
             app:argType="string" />
     </fragment>
+    <fragment
+        android:id="@+id/mcDonaldPage1Fragment"
+        android:name="com.help_kiosk.Simulation_Mcdonald.McDonaldPage1Fragment"
+        android:label="fragment_mcdonald_page1"
+        tools:layout="@layout/fragment_mcdonald_page1" >
+        <action
+            android:id="@+id/action_mcDonaldPage1Fragment_to_mcDonaldStartFragment"
+            app:destination="@id/mcDonaldStartFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/mcDonaldStartFragment"
+        android:name="com.help_kiosk.Simulation_Mcdonald.McDonaldStartFragment"
+        android:label="fragment_mcdonald_start"
+        tools:layout="@layout/fragment_mcdonald_start" />
 
 </navigation>

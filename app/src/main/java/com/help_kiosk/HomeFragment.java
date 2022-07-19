@@ -93,12 +93,13 @@ public class HomeFragment extends Fragment {
         bt_simulation.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if (!selectedBtnName.isEmpty()){
-                    HomeFragmentDirections.ActionHomeFragmentToWayFragment action = HomeFragmentDirections.actionHomeFragmentToWayFragment(selectedBtnName);
-                    Navigation.findNavController(v).navigate(action);
-                }else{
-                    Toast.makeText(getActivity().getApplicationContext(), "상점을 먼저 선택해주세요.", Toast.LENGTH_SHORT).show();
-                }
+                NavHostFragment.findNavController(HomeFragment.this).navigate(R.id.action_homeFragment_to_mcDonaldPage1Fragment);
+//                if (!selectedBtnName.isEmpty()){
+//                    HomeFragmentDirections.ActionHomeFragmentToWayFragment action = HomeFragmentDirections.actionHomeFragmentToWayFragment(selectedBtnName);
+//                    Navigation.findNavController(v).navigate(action);
+//                }else{
+//                    Toast.makeText(getActivity().getApplicationContext(), "상점을 먼저 선택해주세요.", Toast.LENGTH_SHORT).show();
+//                }
             }
         });
 

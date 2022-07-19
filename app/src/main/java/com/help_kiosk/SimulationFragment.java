@@ -18,7 +18,7 @@ import com.google.android.gms.tasks.Task;
 
 public class SimulationFragment extends Fragment {
     private SimulationViewModel simulationViewModel;
-    private Task<Uri> pat
+    private Task<Uri> path;
     private ImageView imageView;
     private ImageButton bt_left;
     private ImageButton bt_right;

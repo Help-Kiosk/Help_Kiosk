@@ -3,8 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="../../../../layout/custom_preview.xml" value="0.15827338129496402" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/Help_Kiosk/app/src/main/res/drawable/simple.xml" value="0.3125" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/Help_Kiosk/app/src/main/res/layout/fragment_home.xml" value="0.3104166666666667" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/Help_Kiosk/app/src/main/res/layout/fragment_madonald_page1.xml" value="0.3104166666666667" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/Help_Kiosk/app/src/main/res/layout/fragment_mcdonald_start.xml" value="0.3104166666666667" />
         <entry key="..\:/Users/ADMIN/AndroidStudioProjects/Help_Kiosk/app/src/main/res/layout/fragment_mcdonalds.xml" value="0.2598958333333333" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/Help_Kiosk/app/src/main/res/layout/fragment_simulation.xml" value="0.4" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/Help_Kiosk/app/src/main/res/layout/fragment_way.xml" value="0.4533514492753623" />
         <entry key="..\:/dawn_workspace/Help_Kiosk/app/src/main/res/layout/activity_main.xml" value="0.22826086956521738" />
         <entry key="..\:/dawn_workspace/Help_Kiosk/app/src/main/res/layout/fragment_home.xml" value="0.109375" />
         <entry key="..\:/dawn_workspace/Help_Kiosk/app/src/main/res/layout/fragment_splash.xml" value="0.22826086956521738" />
@@ -13,16 +18,11 @@
         <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.2535" />
         <entry key="app/src/main/res/drawable/selector_radio_button.xml" value="0.2535" />
         <entry key="app/src/main/res/drawable/selector_radio_text.xml" value="0.1745" />
-        <entry key="app/src/main/res/layout/activity_main.xml" value="0.30416666666666664" />
         <entry key="app/src/main/res/layout/fragment_cgv.xml" value="0.31197916666666664" />
         <entry key="app/src/main/res/layout/fragment_gongcha.xml" value="0.29791666666666666" />
         <entry key="app/src/main/res/layout/fragment_home.xml" value="0.30932971014492755" />
         <entry key="app/src/main/res/layout/fragment_mcdonalds.xml" value="0.3880208333333333" />
-        <entry key="app/src/main/res/layout/fragment_simulation.xml" value="0.31197916666666664" />
-        <entry key="app/src/main/res/layout/fragment_splash.xml" value="0.1933876811594203" />
-        <entry key="app/src/main/res/layout/fragment_way.xml" value="0.23449554443359366" />
-        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.264" />
-        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.264" />
+        <entry key="app/src/main/res/layout/fragment_way.xml" value="0.32760416666666664" />
       </map>
     </option>
   </component>
